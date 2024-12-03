@@ -1,0 +1,19 @@
+{
+  "name": "prisma-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@prisma/client": "^6.0.1",
+    "@types/express": "^5.0.0",
+    "@types/morgan": "^1.9.9",
+    "express": "^4.21.1",
+    "morgan": "^1.10.0"
+  }
+}

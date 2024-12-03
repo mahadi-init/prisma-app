@@ -1,0 +1,27 @@
+### root route
+GET http://localhost:3000/
+
+### Get all books
+GET http://localhost:3000/books 
+
+### Add new book
+POST http://localhost:3000/create
+content-type: application/json
+
+{
+    "name" : "Damon Slayer",
+    "author" : "Ufotable",
+    "price" : 2000
+}
+
+### Update book (id is required!)
+PUT http://localhost:3000/update/7e30c1e5-9d66-4b48-9d37-0ae8efacf86b
+content-type: application/json
+
+{
+    "name" : "Naruto",
+    "author" : "Shonon Jump"
+}
+
+### Delete book (id is required!)
+DELETE  http://localhost:3000/delete/7e30c1e5-9d66-4b48-9d37-0ae8efacf86b
